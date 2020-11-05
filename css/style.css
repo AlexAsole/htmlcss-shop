@@ -12,7 +12,7 @@
 /* righe */
 .row{
   background: white;
-  border: 2px solid red;
+  margin-bottom: 15px;
 }
 /* box dentro le righe */
 .box{
@@ -20,4 +20,25 @@
   background: #eee;
   display: inline-block;
   text-align: center;
+  position: relative;
+}
+/* Foto */
+.photo{
+  position: relative;
+  top: 20%;
+}
+/* Timbro sconto */
+.sconto{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: green;
+}
+/* Sconto rosso sulla prima riga */
+.row:first-child .box:nth-child(2) .sconto{
+  background: red;
+}
+/* Sconto rosso sulla seconda riga */
+.row:last-child .box:nth-child(2) .sconto{
+  background: red;
 }
