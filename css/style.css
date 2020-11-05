@@ -22,11 +22,6 @@
   text-align: center;
   position: relative;
 }
-/* Foto */
-.photo{
-  position: relative;
-  top: 20%;
-}
 /* Timbro sconto */
 .sconto{
   position: absolute;
@@ -41,4 +36,22 @@
 /* Sconto rosso sulla seconda riga */
 .row:last-child .box:nth-child(2) .sconto{
   background: red;
+}
+/* Foto */
+.photo{
+  position: relative;
+  top: 20%;
+}
+/* Cuore nascosto */
+.cuore{
+  color: red;
+  font-size: 34px;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  display: none;
+}
+/* Mostra Cuore */
+.box:hover .cuore{
+  display: block;
 }
