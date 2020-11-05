@@ -1,0 +1,23 @@
+/* Reset */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Contenitore delle righe */
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+/* righe */
+.row{
+  background: white;
+  border: 2px solid red;
+}
+/* box dentro le righe */
+.box{
+  width: 33%;
+  background: #eee;
+  display: inline-block;
+  text-align: center;
+}
